@@ -1,0 +1,96 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: lexdana !important;
+}
+
+@font-face {
+	font-family: lexdana;
+	src: url("lato2/lato-regular-webfont.woff") format("woff");
+}
+
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 1rem;
+	}
+	
+	body, .gold {
+		font-size: 0.85rem;
+	}
+}
+
+#banner {
+	background-image: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.7)), url(setup.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 550px;
+	width: 100vw;
+}
+
+.project:hover {
+	transform: scaleY(1.1);
+}
+
+.center {
+	display: inline-block;
+	align-self: center;
+}
+			
+.navbar, .dropdown-menu {
+	background: #e6bf3c;
+}
+
+ {
+	position: fixed;
+}
+
+.dropdown-menu {
+	right: 5px;
+}
+			
+.nav-link, .navbar-brand, .nav-link:visited {
+	color: #000;
+}
+			
+.nav-link {
+	margin-right: 1em !important;
+}
+			
+.nav-link:hover {
+	color: #000;
+}
+
+.image {
+	height: 100px;
+	
+}
+
+i {
+	font-size:20px;
+}
+
+.progress-bar {
+	background: #e6bf3c;
+}
+
+.gold {
+	background: #e6bf3c;
+}
+
+.icon {
+	display: inline-block;
+}
+ 
+ hr {
+	color: #a37e02;
+	height: 5px !important;
+	width:30%;
+	margin: auto;
+ }
+ 
+
+
+
+
+

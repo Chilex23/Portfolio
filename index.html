@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Responsive Website with Bootstrap 5.X</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Chima Onumaegbu">
+		<meta name="keywords" content="Chima Onumaegbu, ChilexCode, developer in Lagos, Web developer">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="icons/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!-- Navigation Bar -->
+			<div class="row" style="position: fixed; width: 100%; top:0; z-index:5;">
+				<div class="col">
+					<nav class="navbar navbar-expand-lg shadow rounded">
+					  <div class="container-fluid">
+						<i class="fas fa-laptop-code" style="font-size:30px;"></i><a class="navbar-brand ms-1" href="#">ChilexCode</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<i class="fas fa-bars"></i>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						  <ul class="navbar-nav mb-2 ms-auto mb-lg-0">
+							<li class="nav-item">
+							  <a class="nav-link active" aria-current="page" href="#header">About</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" href="#projectCard">Projects</a>
+							</li>
+							<li class="nav-item dropdown">
+							  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								More
+							  </a>
+							  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#skills">View Skills</a></li>
+								<li><a class="dropdown-item" href="#contact">Contact</a></li>
+							  </ul>
+							</li>
+						  </ul>
+						</div>
+					  </div>
+					</nav>
+				</div>
+			</div>
+			
+			<!-- Banner -->
+			<div class="row py-3" id="banner">
+				<div class="col-md-7 mx-auto text-light text-md-center pt-4" id="header">
+					<img src="profile2.jpg" class="img-fluid rounded-circle mx-auto d-block mt-5 mb-1" alt="Profile Picture">
+					<h1>Hi, I'm Chima Onumaegbu - a software developer.</h1>
+					<p>I have a remarkable knack for solving problems and I can pick up new skills pretty fast. I am a strong advocate of responsive and accessible websites. I love challenges and I believe facing new challenges is the best way to grow as a developer.</p>
+					<p>When I am not coding, I like listening to good music and cooking. I also like to engage in outdoor activities like hiking and camping.</p>
+					<button class="btn gold me-2 btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Looking to hire</button>
+					<button type="button" class="btn btn-lg gold" data-bs-toggle="modal" data-bs-target="#website">
+					  Build Me a Website
+				   </button>
+				</div>
+			</div>
+			
+			<!-- Skills Container -->
+			<div class="row mt-5">
+				<div class="col-12"><p class="text-center display-3">Skills<hr></p></div>
+			</div>
+			
+			<div class="row mt-4" id="skills">
+				<div class="col-md-4">
+					<i class="fab fa-html5 d-block text-center mb-1"> html</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">10</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fab fa-css3-alt d-block text-center mb-1"> css</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">10</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fab fa-js-square d-block text-center mb-1"> JavaScript</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">10</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row mt-2">
+				<div class="col-md-4">
+					<i class="fab fa-react d-block text-center mb-1"> react</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">8</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fab fa-python d-block text-center mb-1"> python</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">10</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fab fa-git d-block text-center mb-1"> git</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">10</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row mt-2">
+				<div class="col-md-4">
+					<i class="fas fa-user-friends d-block text-center mb-1"> Teamwork</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">10</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fas fa-database d-block text-center mb-1"> SQL</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">10</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fab fa-bootstrap d-block text-center mb-1"> bootstrap</i>
+					<div class="progress mb-2" style="height: 20px;">
+					  <div class="progress-bar text-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">10</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Projects -->
+			<div class="row text-center mt-5" id="projectCard">
+			<h2 class="text-center mb-5 display-5">View my Projects<hr></h2>
+			  <div class="col-md-4 mb-4 project">
+				 <div class="card h-100">
+					<img class="card-img-top" src="zion.png" alt="Zion Bank">
+					<div class="card-body">
+					   <h4 class="card-title gold">Zion Bank</h4>
+					   <p class="card-text">I designed the User Interface and User Experience for Zion Bank Website.</p>
+					   <p>Technologies used</p>
+					   <ol class="text-start">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+					   </ol>
+					</div>
+					<div class="card-footer py-4">
+					   <a href="#" class="btn gold">View project &raquo;</a>
+					</div>
+				 </div>
+			  </div>
+			  
+			  <div class="col-md-4 mb-4 project">
+				 <div class="card h-100">
+					<img class="card-img-top" src="arise.png" alt="Arise">
+					<div class="card-body">
+					   <h4 class="card-title gold">Arise School</h4>
+						  <p class="card-text">I designed a fully functional website for Arise British International School</p>
+						  <p>Technologies used</p>
+						   <ol class="text-start">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+						   </ol>
+					</div>
+					<div class="card-footer py-4">
+					   <a href="#" class="btn gold">View project &raquo;</a>
+					</div>
+				 </div>
+			  </div>
+			  
+			  <div class="col-md-4 mb-4 project">
+				 <div class="card h-100">
+					<img class="card-img-top" src="matchFix.png" alt="matchFix">
+					<div class="card-body">
+					   <h4 class="card-title gold">MatchFix</h4>
+					   <p class="card-text">I designed and implemented the functionality of the landing page of this website</p>
+					   <p>Technologies used</p>
+						   <ol class="text-start">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>React</li>
+						   </ol>
+					</div>
+					<div class="card-footer py-4">
+					   <a href="#" class="btn gold">View project &raquo;</a>
+					</div>
+				 </div>
+			  </div>
+			</div>
+			
+			<!-- footer -->
+			<hr style="width:100%;">
+			<section class="container-fluid text-center py-4 mt-4" id="contact">
+			   <h2 class="display-4 pb-4 my-2">Like What you see, Get in touch with me today!</h2>
+			   <p class="lead pb-3">Send me a message and I will get back to 
+			   you as soon as possible.</p>
+			   <button type="button" class="btn btn-lg gold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				  Message
+			   </button>
+			   <div>
+				<h2 class="mt-3 display-5">Check Out My Socials</h2>
+				<i class="fab fa-facebook icon" style="font-size: 30px;"></i>
+				<i class="fab fa-twitter" style="font-size: 30px;"></i>
+				<i class="fab fa-youtube" style="font-size: 30px;"></i>
+				<i class="fab fa-linkedin" style="font-size: 30px;"></i>
+			   </div>
+			</section>
+		</div>
+		
+		
+		<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Message</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+					<form>
+						<label for="name">Name</label>
+						<input type="text" class="form-control mb-2" placeholder="Your Name" name="Name" id="name">
+						<label for="email">Email</label>
+						<input type="email" class="form-control mb-2" placeholder="Your email ID" id="email" name="email">
+						<label for="message">Message</label>
+						<textarea placeholder="Your Message here" class="form-control" id="message" name="message"></textarea>
+					</form>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn gold" data-bs-dismiss="modal">Send Message</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+
+		<!-- Modal 2 -->
+			<div class="modal fade" id="website" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="website">Website Info</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+					<form>
+					  <div class="form-group">
+						<label for="exampleFormControlInput1">Email address</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					  </div>
+					  <div class="form-group">
+						<label for="exampleFormControlSelect1">Pleae Select the type of Website</label>
+						<select class="form-control" id="exampleFormControlSelect1">
+						  <option>E-Commerce Website</option>
+						  <option>Portfolio Website</option>
+						  <option>Landing Page</option>
+						  <option>Web App</option>
+						  <option>Blog</option>
+						</select>
+					  </div>
+					  
+					  <div class="form-group">
+						<label for="exampleFormControlTextarea1">Additional Message</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+					</form>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn gold" data-bs-dismiss="modal">Save</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			<!-- canvas -->
+			<div class="offcanvas offcanvas-top gold" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+			  <div class="offcanvas-header">
+				<h5 id="offcanvasTopLabel">My LinkedIn and Resume</h5>
+				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			  </div>
+			  <div class="offcanvas-body">
+				
+				<a href="#" class="text-dark text-decoration-none">Check Out My LinkedIn Profile</a>
+				<i class="fab fa-linkedin me-4"></i>
+				
+				
+				<a href="#" class="text-dark text-decoration-none">Download my Resume</a>
+				<i class="fas fa-file"></i>
+				
+			  </div>
+			</div>
+			
+			
+			
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
